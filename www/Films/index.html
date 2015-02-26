@@ -55,8 +55,7 @@
         return count;
     }
 
-    $(document).ready(function()
-    {
+        alert('hi');
         var filmslist = [
             { titel: 'Titanic', beschrijving: "Grote botsing", id: 1},
             { titel: 'Saving private henk', beschrijving: "Oorlog", id: 2},
@@ -68,7 +67,7 @@
             $("#movies").append(' <li><a href="details.html?id=' + filmslist[i].id +'">' + filmslist[i].titel +  '</a></li>');
         }
         $("#movies").listview("refresh");
-    });
+
     </script>
 </body>
 </html>

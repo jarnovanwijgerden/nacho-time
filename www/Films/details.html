@@ -64,10 +64,6 @@
         return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     }
 
-
-    $(document).ready(function()
-    {
-
         $("#test").html("Trol");
         var filmslist = [
             { titel: 'Titanic', beschrijving: "Grote botsing", id: 1},
@@ -85,7 +81,7 @@
                 $("#information").html("Film titel is " + filmslist[i].titel + " met beschrijving " + filmslist[i].beschrijving);
             }
         }
-    });
+        
     </script>
 </body>
 </html>
